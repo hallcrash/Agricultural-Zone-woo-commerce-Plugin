@@ -8,6 +8,7 @@ It's not complicated. To activate, a table needs to be created named hardiness_z
 I didnt include a script to create the database when the plugin in activated. I may add that at a later date.
 hardiness_zones create table script:
 
+<code>
 CREATE TABLE `hardiness_zones` (
   `zip_code` varchar(8) NOT NULL,
   `zone` varchar(4),
@@ -16,3 +17,4 @@ CREATE TABLE `hardiness_zones` (
   `latitude` varchar(8),
   `longitute` varchar(89)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3;
+</code>
